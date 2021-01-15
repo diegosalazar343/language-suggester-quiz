@@ -19,7 +19,13 @@ form {
   padding-top: 30px;
 }
 
+#box {
+  background-color: white;
+  border-style: solid;
+}
+
 body {
   padding-top: 30px;
   background: rgb(40, 82, 82);
+  color: rgb(216, 212, 212);
 }
