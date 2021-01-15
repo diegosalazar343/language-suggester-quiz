@@ -2,11 +2,17 @@
 function results(input1, input2, input3, input4, input5) {
   const total = input1 + input2 + input3 + input4 + input5;
 
-
+  if(total <= 7) {
+    programming = "Ruby";
+  } else if(total <= 11) {
+    programming = "C#";
+  } else if(total <=16){
+    programming = "Python";
+  } else {
+    programming = "Swift";
+  }
+  return programming;
 }
-
-
-
 
 //User Logic
 $(document).ready(function(){
@@ -20,6 +26,14 @@ $(document).ready(function(){
     const season = parseInt($("#season").val());
     const programming = results(superpower, disney, animal, language, season);
 
+    if(programming ===) {
 
-  })
-})
+    } else if(programming ===){
+
+    } else if(programming === ){
+
+    } else {
+
+    }
+  });
+});
