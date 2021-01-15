@@ -16,7 +16,7 @@ function results(input1, input2, input3, input4, input5) {
 
 //User Logic
 $(document).ready(function(){
-  ("form#").submit(function(){
+  $("form#quiz").submit(function(){
     event.preventDefault();
 
     const superpower = parseInt($("#superpower").val());
@@ -27,16 +27,16 @@ $(document).ready(function(){
     const programming = results(superpower, disney, animal, language, season);
 
     if(programming === "Ruby") {
-      $("#ouput").show();
+      $("#output").show();
       $("#answer").text("Ruby");
     } else if(programming === "C#"){
-      $("#ouput").show();
+      $("#output").show();
       $("#answer").text("C#");
     } else if(programming === "Python"){
-      $("#ouput").show();
+      $("#output").show();
       $("#answer").text("Python");
     } else {
-      $("#ouput").show();
+      $("#output").show();
       $("#answer").text("Swift");
     }
   });
