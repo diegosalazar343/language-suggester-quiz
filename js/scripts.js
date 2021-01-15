@@ -29,15 +29,23 @@ $(document).ready(function(){
     if(programming === "Ruby") {
       $("#output").show();
       $("#answer").text("Ruby");
+      $(".pic").hide();
+      $("#r").show();
     } else if(programming === "C#"){
       $("#output").show();
       $("#answer").text("C#");
+      $(".pic").hide();
+      $("#c").show();
     } else if(programming === "Python"){
       $("#output").show();
       $("#answer").text("Python");
+      $(".pic").hide();
+      $("#p").show();
     } else {
       $("#output").show();
       $("#answer").text("Swift");
+      $(".pic").hide();
+      $("#s").show();
     }
   });
 });
