@@ -28,24 +28,36 @@ $(document).ready(function(){
 
     if(programming === "Ruby") {
       $("#output").show();
+      $("#inform").show();
       $("#answer").text("Ruby");
       $(".pic").hide();
+      $(".L-link").hide();
       $("#r").show();
+      $("#rub").show();
     } else if(programming === "C#"){
       $("#output").show();
+      $("#inform").show();
       $("#answer").text("C#");
       $(".pic").hide();
+      $(".L-link").hide();
       $("#c").show();
+      $("#csharp").show();
     } else if(programming === "Python"){
       $("#output").show();
+      $("#inform").show();
       $("#answer").text("Python");
       $(".pic").hide();
+      $(".L-link").hide();
       $("#p").show();
+      $("#pytho").show();
     } else {
       $("#output").show();
+      $("#inform").show();
       $("#answer").text("Swift");
       $(".pic").hide();
+      $(".L-link").hide();
       $("#s").show();
+      $("#tswift").show();
     }
   });
 });
