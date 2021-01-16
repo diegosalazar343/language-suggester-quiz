@@ -4,6 +4,16 @@
   text-align: center;
 }
 
+#inform {
+  display: none;
+  padding-top: 30px;
+  text-align: left;
+}
+
+#link {
+  text-align:center;
+}
+
 img {
   width: 400px;
   height: auto;
@@ -11,6 +21,7 @@ img {
 
 .center {
   text-align: center;
+  -webkit-text-fill-color: rgb(240, 220, 194);
 }
 
 form {
@@ -20,6 +31,8 @@ form {
 }
 
 #box {
+  float:center;
+  text-align: center;
   background-color: white;
   border-style: solid;
 }
@@ -27,5 +40,5 @@ form {
 body {
   padding-top: 30px;
   background: rgb(40, 82, 82);
-  color: rgb(216, 212, 212);
+  color:  rgb(240, 220, 194);
 }
